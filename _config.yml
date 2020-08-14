@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Juliany Raiol
-email: julianyraiol@gmail.com
-description: Tecnologia, Poeminhas e Comunidades
+title: Kevin K. Takano
+email: kevin.takano@gmail.com
+description: Simple blog about code interpretation.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: julianyraiol
-github_username: julianyraiol
-linkedin_username: julianyraiol
-author: Juliany Raiol
+twitter_username: ktakanov
+github_username: ktakanov 
+linkedin_username: ktakanov 
+author: Kevin K. Takano
 background: "/img/banner_home4.jpg"
 
-google_analytics: UA-142700185-1
+# google_analytics: UA-142700185-1
 
 # Build settings
 #theme: minima
