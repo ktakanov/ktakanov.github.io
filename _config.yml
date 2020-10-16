@@ -20,7 +20,7 @@
 
 title: Kevin K. Takano
 email: kevin.takano@gmail.com
-description: Simple blog about code interpretation.
+description: Nothing but just a normal dev.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -41,11 +41,12 @@ remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 markdown: kramdown
 paginate: 5
 paginate_path: "/posts/page:num/"
+paginate_path: "/projects/page:num/"
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - jekyll-paginate
+  - jekyll-paginate-v2
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

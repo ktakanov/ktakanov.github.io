@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Blog
+title: Sample projects
 background: "/img/background.jpg"
 ---
 
 <head></head>
 <body>
 {% for post in paginator.posts %}
+
+{% if post.categories contains "datascience" %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -26,9 +28,9 @@ background: "/img/background.jpg"
     on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
   </p>
 </article>
-
 <hr>
 
+{% endif %}
 {% endfor %}
 
 <!-- Pager -->
