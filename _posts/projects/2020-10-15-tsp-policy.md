@@ -11,7 +11,7 @@ categories: datascience
 Hello guys, this is a small project that I did when I was an unofficial student in my current master's at ufam.
 The idea of this game is to solve a simple version of PAC-Man (or the traveling salesman) through Deep Policy Gradients. And at the time I based my work on this [author](https://multithreaded.stitchfix.com/blog/2016/07/21/skynet-salesman/)
 
-In this [link](https://github.com/ktakanov/SolvingTSPwithPolicyGradients), you can find a presentation from the time when I was taking the course.
+In this [link](https://github.com/ktakanov/SolvingTSPwithPolicyGradients), you can find a presentation file and the code from the time when I was taking the course. Please do not be panic with this code :p.
 
 Nothing more, thank you very much :).
 
